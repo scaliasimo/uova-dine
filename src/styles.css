@@ -1,0 +1,63 @@
+body {
+  font-family: "Lateef", serif;
+  background: #f9f0de;
+  color: #1f2839;
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0 0 0 25%;
+}
+
+.chicken-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  background-position: 80% 50%;
+}
+
+@media (max-width: 1200px) {
+  .chicken-sidebar {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+
+.App {
+  display: block;
+  padding: 80px;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+@media (max-width: 950px) {
+  .App {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .App {
+    padding: 60px;
+    max-width: 1240px;
+  }
+}
+
+h1 {
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+  border-bottom: 1px solid #c2beb5;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+}
